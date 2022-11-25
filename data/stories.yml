@@ -1,0 +1,61 @@
+version: "3.0"
+
+stories:
+- story: drinnen positive path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_affirm
+  - intent: drinnen
+  - action: utter_drinnen
+  - action: utter_drinnen2
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: drinnen negative path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_affirm
+  - intent: drinnen
+  - action: utter_drinnen
+  - action: utter_drinnen2
+  - intent: deny
+  - action: utter_wie
+  - intent: another
+  - action: utter_another
+
+- story: draussen positive path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_affirm
+  - intent: draussen
+  - action: utter_draussen
+  - action: utter_draussen2
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: draussen negative path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_affirm
+  - intent: draussen
+  - action: utter_draussen
+  - action: utter_draussen2
+  - intent: deny
+  - action: utter_wie
+  - intent: another
+  - action: utter_another
+
+- story: deny path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: deny
+  - action: utter_deny

@@ -1,0 +1,89 @@
+version: "3.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - guten Tag
+    - Servus
+    - Hallo
+    - hallo
+
+- intent: greet_formal
+  examples: |
+    - guten Tag
+    - guten Abend
+
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - Tschüss
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - ja
+    - jap
+    - yep
+    - genau
+    - korrekt
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - nein
+    - ne
+
+- intent: drinnen
+  examples: |
+    - drinnen
+    - drin
+    - in
+    - in a warm place
+    - not outside
+
+- intent: draussen
+  examples: |
+    - draußen
+    - drauß
+    - out 
+    - not inside
+
+- intent: another
+  examples: |
+    - noch eine Variante
+    - Schlage noch eine Variante vor
+    - Schlage noch eine Unterhaltung vor
