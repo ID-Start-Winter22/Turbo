@@ -1,30 +1,62 @@
 version: "3.0"
 
 stories:
-
-- story: happy path
+- story: drinnen positive path
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
-
-- story: sad path 1
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
   - intent: affirm
-  - action: utter_happy
+  - action: utter_affirm
+  - intent: drinnen
+  - action: utter_drinnen
+  - action: utter_drinnen2
+  - intent: affirm
+  - action: utter_goodbye
 
-- story: sad path 2
+- story: drinnen negative path
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_affirm
+  - intent: drinnen
+  - action: utter_drinnen
+  - action: utter_drinnen2
   - intent: deny
+  - action: utter_wie
+  - intent: another
+  - action: utter_another
+
+- story: draussen positive path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_affirm
+  - intent: draussen
+  - action: utter_draussen
+  - action: utter_draussen2
+  - intent: affirm
   - action: utter_goodbye
+
+- story: draussen negative path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_affirm
+  - intent: draussen
+  - action: utter_draussen
+  - action: utter_draussen2
+  - intent: deny
+  - action: utter_wie
+  - intent: another
+  - action: utter_another
+
+- story: deny path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: deny
+  - action: utter_deny
+

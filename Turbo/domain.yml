@@ -2,32 +2,65 @@ version: "3.0"
 
 intents:
   - greet
+  - greet_formal
   - goodbye
   - affirm
   - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+  - draussen
+  - drinnen
+  - another
+
+  
+actions:
+  - action_store_name
+  - action_get_name
+
+entities:
+  - username
+
+slots:
+  username:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: username
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Hey! Ich heiße Turbo, dein virtueller Reiseführer. Möchtest du etwas erleben?"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+  utter_affirm:
+  - text: "Drinnen oder draußen?"
 
-  utter_did_that_help:
-  - text: "Did that help you?"
+  utter_deny:
+  - text: "Schade. Ciao"
 
-  utter_happy:
-  - text: "Great, carry on!"
+  utter_drinnen:
+  - text: "Hier sind die beste Unterhaltungen, die drinnen Statt finden: Giorgia Trattoria, Weißenburger Str. 2"
+    image: "https://i.ibb.co/W37TF2g/7-F3943-FB-4435-43-C3-A902-5-F353223-C82-A.jpg"
+
+  utter_drinnen2:
+  - text: "Kino mit Tieren, Laimer Platz 43. Gefällt es dir?"
+    image: "https://i.ibb.co/3RYBwkd/742-C17-B9-8-C67-48-F3-A39-A-0-DD78750-A34-D.jpg"
+  
+  utter_draussen:
+  - text: "Hier sind die beste Unterhaltungen, die draussen Statt finden: Olympia Eishalle, Spiridon-Louis-Ring 3"
+    image: "https://i.ibb.co/ckQ2gNX/A1-C3859-C-122-B-4-F05-A086-325397-B110-A6.jpg"
+  
+  utter_draussen2:
+  - text: "Weihnachtsmarkt, Sendlinger-Tor 11. Gefällt es dir?"
+    image: "https://i.ibb.co/W0qxG2g/CC32-AAD6-11-A2-4-FC7-93-F1-F26-F4-B37-ADDD.jpg"
+
+  utter_wie:
+  - text: "Wie kann ich dir noch helfen?"
+
+  utter_another:
+  - text: "Natürlich! Ich schlage dir vor, dieses Ort zu besuchen: Eisbahn am Karlsplatz. Gefällt es dir?"
+    image: "https://i.ibb.co/b6ZVJcm/652466-EC-74-A9-466-B-8135-194-CA6-D7-F8-C8.jpg"
 
   utter_goodbye:
-  - text: "Bye"
-
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "Viel Spaß! Bis bald:)"
 
 session_config:
   session_expiration_time: 60
