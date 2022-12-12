@@ -25,13 +25,14 @@ nlu:
   examples: |
     - guten Tag
     - guten Abend
+    - guten Morgen
 
 
 - intent: goodbye
   examples: |
     - cu
-    - good by
-    - cee you later
+    - good bye
+    - see you later
     - good night
     - bye
     - goodbye
@@ -40,6 +41,8 @@ nlu:
     - bye bye
     - see you later
     - Tschüss
+    - tschau
+    - tschaui
 
 - intent: affirm
   examples: |
@@ -54,6 +57,8 @@ nlu:
     - yep
     - genau
     - korrekt
+    - richtig
+    - si
 
 - intent: deny
   examples: |
@@ -66,6 +71,8 @@ nlu:
     - not really
     - nein
     - ne
+    - nope
+    - definitiv nein
 
 - intent: drinnen
   examples: |
@@ -74,6 +81,8 @@ nlu:
     - in
     - in a warm place
     - not outside
+    - in der wärme
+    - nicht draußen
 
 - intent: draussen
   examples: |
@@ -81,9 +90,13 @@ nlu:
     - drauß
     - out 
     - not inside
+    - nicht drinnen
+    - in der natur
 
 - intent: another
   examples: |
     - noch eine Variante
     - Schlage noch eine Variante vor
     - Schlage noch eine Unterhaltung vor
+    - hast du noch einen Vorschlag?
+    - hast du noch eine Idee?
