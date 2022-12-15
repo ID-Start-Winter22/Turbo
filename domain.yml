@@ -9,6 +9,11 @@ intents:
   - draussen
   - drinnen
   - another
+  - sport
+  - kultur
+  - natur
+  - kino
+  - surprise
 
   
 actions:
@@ -31,32 +36,55 @@ responses:
   - text: "Hey! Ich heiße Turbo, dein virtueller Reiseführer. Möchtest du etwas erleben?"
 
   utter_affirm:
-  - text: "Möchtest du drinnen bleiben oder draußen etwas machen?"
+  - text: "Heute ist 10° in München. Möchtest du drinnen oder draußen etwas machen?"
+    buttons:
+    - title: "drinnen"
+      payload: /drinnen
+    - title: "draußen"
+      payload: /draußen
+
+  utter_activity:
+  - text: "Wähle deine beliebste Aktivitäten:"
+    buttons:
+    - title: "Sport"
+      payload: /sport
+    - title: "Kultur"
+      payload: /kultur
+    - title: "Natur"
+      payload: /natur
+    - title: "Kino"
+      payload: /kino
+    - title: "Surprise me!"
+      payload: /suprise me
 
   utter_deny:
   - text: "Schade. Ciao"
 
-  utter_drinnen:
-  - text: "Hier ist etwas, was du drinnen unternehmen kannst: Giorgia Trattoria, Weißenburger Str. 2"
-    image: "https://i.ibb.co/W37TF2g/7-F3943-FB-4435-43-C3-A902-5-F353223-C82-A.jpg"
+  utter_sport_dr:
+  - text: "Wer sich für wunde Finger und Erfolgserlebnisse begeistern kann, sollte mal im DAV Kletter- und Boulderzentrum München-Süd vorbeischauen"
+    image: "https://www.kbthalkirchen.de/files/2021/07/201706_DAV_MUE_01302.jpg"
 
-  utter_drinnen2:
-  - text: "Wie wärs mit: Kino mit Tieren, Laimer Platz 43?"
-    image: "https://i.ibb.co/3RYBwkd/742-C17-B9-8-C67-48-F3-A39-A-0-DD78750-A34-D.jpg"
-  
-  utter_draussen:
-  - text: "Hier ein turbo-tolles Erlebnis an der frischen Luft: Olympia Eishalle, Spiridon-Louis-Ring 3"
-    image: "https://i.ibb.co/ckQ2gNX/A1-C3859-C-122-B-4-F05-A086-325397-B110-A6.jpg"
-  
-  utter_draussen2:
-  - text: "Lust auf einen Weihnachtsmarkt? Einer ist zum Beispiel am Sendlinger-Tor 11. Gefällt es dir?"
-    image: "https://i.ibb.co/W0qxG2g/CC32-AAD6-11-A2-4-FC7-93-F1-F26-F4-B37-ADDD.jpg"
+  utter_kultur_dr:
+  - text: "Ich empfele dir das deutsches Museum zu besuchen: "
+    image: "https://www.nachrichten-muenchen.com/wp-content/uploads/2020/10/Deutsches-Museum-2-696x460.jpg"
+
+  utter_natur_dr:
+  - text: "Entdecken Sie Botanischer Garten München-Nymphenburg"
+    image: "https://mein-muenchen.de/wp-content/uploads/2022/02/Header_1050x590-5.jpg"
+
+  utter_kino_dr:
+  - text: "Filme gucken im verrückten Cadillac Kino:"
+    image: "https://muenchen.mitvergnuegen.com/wp-content/uploads/sites/3/2017/01/saal_159_0_big.jpg"
+
+  utter_surprise_dr:
+  - text: "Trampolin-Freizeitpark für die ganze Familie in München: "
+    image: "https://www.ruhrtopcard.de/fileadmin/_processed_/7/2/csm_wipeout_dbd5cb8b4d.jpg"
 
   utter_wie:
   - text: "Wie kann ich dir noch helfen?"
 
   utter_another:
-  - text: "Natürlich! Ich schlage dir vor, dieses Ort zu besuchen: Eisbahn am Karlsplatz. Was denkst du?"
+  - text: "Natürlich! Ich schlage dir vor, dieses Ort zu besuchen: Eisbahn am Karlsplatz. Gefällt es dir?"
     image: "https://i.ibb.co/b6ZVJcm/652466-EC-74-A9-466-B-8135-194-CA6-D7-F8-C8.jpg"
 
   utter_goodbye:

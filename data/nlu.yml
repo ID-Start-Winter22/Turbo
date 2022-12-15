@@ -100,3 +100,13 @@ nlu:
     - Schlage noch eine Unterhaltung vor
     - hast du noch einen Vorschlag?
     - hast du noch eine Idee?
+
+- intent: sport
+
+- intent: kultur
+
+- intent: surprise
+
+- intent: natur
+
+- intent: kino
