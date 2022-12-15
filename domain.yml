@@ -76,12 +76,9 @@ responses:
   - text: "Filme gucken im verrückten Cadillac Kino:"
     image: "https://muenchen.mitvergnuegen.com/wp-content/uploads/sites/3/2017/01/saal_159_0_big.jpg"
 
-  utter_surprise_dr:
+  utter_suprise_dr:
   - text: "Trampolin-Freizeitpark für die ganze Familie in München: "
     image: "https://www.ruhrtopcard.de/fileadmin/_processed_/7/2/csm_wipeout_dbd5cb8b4d.jpg"
-
-  utter_wie:
-  - text: "Wie kann ich dir noch helfen?"
 
   utter_another:
   - text: "Natürlich! Ich schlage dir vor, dieses Ort zu besuchen: Eisbahn am Karlsplatz. Gefällt es dir?"
