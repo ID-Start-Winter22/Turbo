@@ -19,6 +19,17 @@ intents:
 actions:
   - action_store_name
   - action_get_name
+  - utter_greet
+  - utter_affirm
+  - utter_activity
+  - utter_another
+  - utter_deny
+  - utter_goodbye
+  - utter_kino_dr
+  - utter_kultur_dr
+  - utter_natur_dr
+  - utter_sport_dr
+  - utter_surprise_dr
 
 entities:
   - username
