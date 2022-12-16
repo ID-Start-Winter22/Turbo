@@ -13,7 +13,7 @@ intents:
   - kultur
   - natur
   - kino
-  - surprise
+  - surprise me!
 
   
 actions:
@@ -50,23 +50,23 @@ responses:
   - text: "Heute ist 10° in München. Möchtest du drinnen oder draußen etwas machen?"
     buttons:
     - title: "drinnen"
-      payload: /drinnen
+      payload: drinnen
     - title: "draußen"
-      payload: /draußen
+      payload: draußen
 
   utter_activity:
   - text: "Wähle deine beliebste Aktivitäten:"
     buttons:
     - title: "Sport"
-      payload: /sport
+      payload: sport
     - title: "Kultur"
-      payload: /kultur
+      payload: kultur
     - title: "Natur"
-      payload: /natur
+      payload: natur
     - title: "Kino"
-      payload: /kino
+      payload: kino
     - title: "Surprise me!"
-      payload: /suprise me
+      payload: surprise me!
 
   utter_deny:
   - text: "Schade. Ciao"
@@ -87,7 +87,7 @@ responses:
   - text: "Filme gucken im verrückten Cadillac Kino:"
     image: "https://muenchen.mitvergnuegen.com/wp-content/uploads/sites/3/2017/01/saal_159_0_big.jpg"
 
-  utter_suprise_dr:
+  utter_surprise_dr:
   - text: "Trampolin-Freizeitpark für die ganze Familie in München: "
     image: "https://www.ruhrtopcard.de/fileadmin/_processed_/7/2/csm_wipeout_dbd5cb8b4d.jpg"
 

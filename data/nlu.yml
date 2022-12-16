@@ -77,7 +77,8 @@ nlu:
 - intent: drinnen
   examples: |
     - /drinnen
-    - drin
+    - drinnen
+    - innen
     - in
     - in a warm place
     - not outside
@@ -87,7 +88,7 @@ nlu:
 - intent: draussen
   examples: |
     - /draußen
-    - drauß
+    - draußen
     - out 
     - not inside
     - nicht drinnen
@@ -102,21 +103,26 @@ nlu:
     - hast du noch eine Idee?
 
 - intent: sport
-   examples: |
+  examples: |
    - /sport
+   - sport
 
 - intent: kultur
-   examples: |
+  examples: |
    - /kultur
+   - kultur
 
-- intent: surprise
-   examples: |
+- intent: surprise me!
+  examples: |
    - /surprise
+   - surprise me!
 
 - intent: natur
-   examples: |
+  examples: |
    - /natur
+   - natur
 
 - intent: kino
   examples: |
-  - /kino
+   - /kino
+   - kino

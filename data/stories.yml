@@ -61,7 +61,7 @@ stories:
   - action: utter_affirm
   - intent: drinnen
   - action: utter_activity
-  - intent: surpise
+  - intent: surprise me!
   - action: utter_surprise_dr
   - intent: affirm
   - action: utter_goodbye
