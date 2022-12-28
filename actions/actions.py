@@ -7,19 +7,51 @@
 
 # This is a simple example for a custom action which utters "Hello World!"
 
+import requests
+import os            
+from dotenv import load_dotenv, find_dotenv
+from pathlib import Path
+import re
 from typing import Any, Text, Dict, List
 from pyparsing import nestedExpr
-
+from rasa_sdk import Tracker, FormValidationAction, Action
+from rasa_sdk.events import EventType, SlotSet
+from rasa_sdk.types import DomainDict
+from rasa_sdk.executor import CollectingDispatcher
+from typing import Any, Text, Dict, List
+from pyparsing import nestedExpr
 import requests
-
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
+
+load_dotenv()
+wakey= os.getenv("wakey") 
+
+class MainMenu(Action):
+    def name(self) -> Text:
+        return "action_get_weather"
+    def run(self, dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any]) -> List[Dict[Text,Any]]:
+        city_name = tracker.get_slot("City")
+        base_url = "http://api.openweathermap.org/data/2.5/weather?"
+        complete_url = base_url + "appid=" + wakey+ "&q=" + city_name + "&units=metric" + "&lang=de"
+        response = requests.get(complete_url)
+        x = response.json()["main"]
+        desc = response.json()["weather"]
+        current_temperature = x["temp"]
+        weather_description = desc[0]["description"]
+        dispatcher.utter_button_message(f"In {city_name} sind es " + str(current_temperature) + "°C. \nAktueller Wetterstatus: " + str(weather_description))
+
+        return
 
 
 # NOTE(Michael): We could use this action to store the name in
 #                the TrackerStore (in memory database) or a persitent DB
 #                such as MySQL. But we need to store a key-value pair 
 #                to identify the user by id eg. (user_id, slotvalue)
+
+
 class ActionStoreUserName(Action):
 
      def name(self) -> Text:
@@ -48,15 +80,21 @@ class ActionUserName(Action):
 
 class API(Action):
 
+class Wetter(Action):
     def name(self) -> Text:
-        return "action_tell_api"
- 
+        return "action_get_weather"
     def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        url = "http://api.openweathermap.org/data/2.5/weather?appid=0c42f7f6b53b244c78a418f4f181282a&q=" #API ENDPOINT JSON URL 
-        response = requests.get(url)
-        apir = response.json()[0] #apiresponse to json
-        textoutput = apir["text"] #select output text from table variable 
-        dispatcher.utter_message("Here is your API Output: \n" + textoutput)
-        return []
+        tracker: Tracker,
+        domain: Dict[Text, Any]) -> List[Dict[Text,Any]]:
+        # city_name = tracker.get_slot("wacity")
+        city_name = "München"
+        base_url = "http://api.openweathermap.org/data/2.5/weather?"
+        complete_url = base_url + "appid=" + wakey + "&q=" + city_name + "&units=metric" + "&lang=de"
+        response = requests.get(complete_url)
+        x = response.json()["main"]
+        desc = response.json()["weather"]
+        current_temperature = x["temp"]
+        weather_description = desc[0]["description"]
+        dispatcher.utter_button_message(f"In {city_name} sind es " + str(current_temperature) + "°C. \nAktueller Wetterstatus: " + str(weather_description))
+
+        return
