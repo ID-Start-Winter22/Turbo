@@ -35,6 +35,7 @@ actions:
   - utter_natur_ds
   - utter_sport_ds
   - utter_surprise_ds
+  - action_get_weather
 
 entities:
   - username
