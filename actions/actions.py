@@ -10,6 +10,8 @@
 from typing import Any, Text, Dict, List
 from pyparsing import nestedExpr
 
+import requests
+
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 
@@ -43,4 +45,18 @@ class ActionUserName(Action):
             dispatcher.utter_message(' Du bist {}'.format(username))
 
         return []
-        
+
+class API(Action):
+
+    def name(self) -> Text:
+        return "action_tell_api"
+ 
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        url = "http://api.openweathermap.org/data/2.5/weather?appid=0c42f7f6b53b244c78a418f4f181282a&q=" #API ENDPOINT JSON URL 
+        response = requests.get(url)
+        apir = response.json()[0] #apiresponse to json
+        textoutput = apir["text"] #select output text from table variable 
+        dispatcher.utter_message("Here is your API Output: \n" + textoutput)
+        return []

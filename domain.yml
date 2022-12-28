@@ -15,7 +15,7 @@ intents:
   - kino
   - surprise me!
 
-  
+
 actions:
   - action_store_name
   - action_get_name
@@ -112,7 +112,7 @@ responses:
   - text: "Trampolin-Freizeitpark für die ganze Familie in München: "
     image: "https://www.ruhrtopcard.de/fileadmin/_processed_/7/2/csm_wipeout_dbd5cb8b4d.jpg"
   
-  utter_suprise_ds:
+  utter_surprise_ds:
   - text: "Zeltdachtour auf dem Olympiastadion: "
     image: "https://www.muenchenticket.de/media/image/original/8325_816_event_2846-de_DE-148344814765.jpg"
 

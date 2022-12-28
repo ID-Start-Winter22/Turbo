@@ -13,7 +13,7 @@ stories:
   - action: utter_sport_dr
   - intent: affirm
   - action: utter_goodbye
-
+  
 - story: draussen sport path
   steps:
   - intent: greet
@@ -59,7 +59,7 @@ stories:
   - action: utter_greet
   - intent: affirm
   - action: utter_affirm
-  - intent: drinnen
+  - intent: draussen
   - action: utter_activity
   - intent: natur
   - action: utter_natur_dr
@@ -85,7 +85,7 @@ stories:
   - action: utter_greet
   - intent: affirm
   - action: utter_affirm
-  - intent: drinnen
+  - intent: draussen
   - action: utter_activity
   - intent: kino
   - action: utter_kino_dr
