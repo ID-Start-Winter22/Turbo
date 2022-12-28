@@ -14,6 +14,19 @@ stories:
   - intent: affirm
   - action: utter_goodbye
 
+- story: draussen sport path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_affirm
+  - intent: draussen
+  - action: utter_activity
+  - intent: sport
+  - action: utter_sport_ds
+  - intent: affirm
+  - action: utter_goodbye
+
 - story: drinnen kultur path
   steps:
   - intent: greet
@@ -24,6 +37,19 @@ stories:
   - action: utter_activity
   - intent: kultur
   - action: utter_kultur_dr
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: draussen kultur path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_affirm
+  - intent: draussen
+  - action: utter_activity
+  - intent: kultur
+  - action: utter_kultur_ds
   - intent: affirm
   - action: utter_goodbye
 
@@ -40,6 +66,19 @@ stories:
   - intent: affirm
   - action: utter_goodbye
 
+- story: draussen natur path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_affirm
+  - intent: draussen
+  - action: utter_activity
+  - intent: natur
+  - action: utter_natur_ds
+  - intent: affirm
+  - action: utter_goodbye
+
 - story: drinnen kino path
   steps:
   - intent: greet
@@ -53,6 +92,19 @@ stories:
   - intent: affirm
   - action: utter_goodbye
 
+- story: draussen kino path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_affirm
+  - intent: draussen
+  - action: utter_activity
+  - intent: kino
+  - action: utter_kino_ds
+  - intent: affirm
+  - action: utter_goodbye
+
 - story: drinnen surprise path
   steps:
   - intent: greet
@@ -63,6 +115,19 @@ stories:
   - action: utter_activity
   - intent: surprise me!
   - action: utter_surprise_dr
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: draussen surprise path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_affirm
+  - intent: draussen
+  - action: utter_activity
+  - intent: surprise me!
+  - action: utter_surprise_ds
   - intent: affirm
   - action: utter_goodbye
 
