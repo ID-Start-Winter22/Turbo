@@ -8,6 +8,8 @@ stories:
   - intent: affirm
   - action: utter_affirm
   - intent: drinnen
+  - action: utter_geld
+  - intent: affirm
   - action: utter_activity
   - intent: sport
   - action: utter_sport_dr
@@ -21,6 +23,8 @@ stories:
   - intent: affirm
   - action: utter_affirm
   - intent: draussen
+  - action: utter_geld
+  - intent: affirm
   - action: utter_activity
   - intent: sport
   - action: utter_sport_ds
@@ -34,6 +38,8 @@ stories:
   - intent: affirm
   - action: utter_affirm
   - intent: drinnen
+  - action: utter_geld
+  - intent: affirm
   - action: utter_activity
   - intent: kultur
   - action: utter_kultur_dr
@@ -47,6 +53,8 @@ stories:
   - intent: affirm
   - action: utter_affirm
   - intent: draussen
+  - action: utter_geld
+  - intent: affirm
   - action: utter_activity
   - intent: kultur
   - action: utter_kultur_ds
@@ -60,6 +68,8 @@ stories:
   - intent: affirm
   - action: utter_affirm
   - intent: drinnen
+  - action: utter_geld
+  - intent: affirm
   - action: utter_activity
   - intent: natur
   - action: utter_natur_dr
@@ -73,6 +83,8 @@ stories:
   - intent: affirm
   - action: utter_affirm
   - intent: draussen
+  - action: utter_geld
+  - intent: affirm
   - action: utter_activity
   - intent: natur
   - action: utter_natur_ds
@@ -86,6 +98,8 @@ stories:
   - intent: affirm
   - action: utter_affirm
   - intent: drinnen
+  - action: utter_geld
+  - intent: affirm
   - action: utter_activity
   - intent: kino
   - action: utter_kino_dr
@@ -99,6 +113,8 @@ stories:
   - intent: affirm
   - action: utter_affirm
   - intent: draussen
+  - action: utter_geld
+  - intent: affirm
   - action: utter_activity
   - intent: kino
   - action: utter_kino_ds
@@ -112,6 +128,8 @@ stories:
   - intent: affirm
   - action: utter_affirm
   - intent: drinnen
+  - action: utter_geld
+  - intent: affirm
   - action: utter_activity
   - intent: surprise me!
   - action: utter_surprise_dr
@@ -125,6 +143,8 @@ stories:
   - intent: affirm
   - action: utter_affirm
   - intent: draussen
+  - action: utter_geld
+  - intent: affirm
   - action: utter_activity
   - intent: surprise me!
   - action: utter_surprise_ds

@@ -60,6 +60,14 @@ responses:
     - title: "draußen"
       payload: draußen
 
+  utter_geld:
+  - text: "Bist du bereit, das Geld für die Unterhaltungen auszugeben?"
+    buttons:
+    - title: "Ja"
+      payload: ja
+    - title: "Nein"
+      payload: Nein
+
   utter_activity:
   - text: "Wähle deine beliebste Aktivität: "
     buttons:
