@@ -59,7 +59,7 @@ stories:
   - action: utter_greet
   - intent: affirm
   - action: utter_affirm
-  - intent: draussen
+  - intent: drinnen
   - action: utter_activity
   - intent: natur
   - action: utter_natur_dr
@@ -85,7 +85,7 @@ stories:
   - action: utter_greet
   - intent: affirm
   - action: utter_affirm
-  - intent: draussen
+  - intent: drinnen
   - action: utter_activity
   - intent: kino
   - action: utter_kino_dr

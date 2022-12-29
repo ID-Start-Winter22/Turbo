@@ -61,7 +61,7 @@ responses:
       payload: draußen
 
   utter_activity:
-  - text: "Wähle deine beliebste Aktivitäten:"
+  - text: "Wähle deine beliebste Aktivität: "
     buttons:
     - title: "Sport"
       payload: sport
@@ -90,7 +90,7 @@ responses:
     image: "https://www.nachrichten-muenchen.com/wp-content/uploads/2020/10/Deutsches-Museum-2-696x460.jpg"
 
   utter_kultur_ds:
-  - text: "Wir empfehlen dir eine Exkursion auf hot rod fun zu besuchen"
+  - text: "Wir empfehlen dir eine Exkursion auf hot rod fun zu besuchen: "
     image: "https://www.hotrod-fun.com/wp-content/uploads/2022/04/werbemittel_werbetraeger_muenchen.jpg"
 
   utter_natur_dr:
