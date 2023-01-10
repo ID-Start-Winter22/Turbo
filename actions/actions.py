@@ -9,7 +9,7 @@
 
 import requests
 import os            
-from dotenv import load_dotenv, find_dotenv
+# from dotenv import load_dotenv, find_dotenv
 from pathlib import Path
 import re
 from typing import Any, Text, Dict, List
@@ -24,7 +24,7 @@ import requests
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 
-load_dotenv()
+# load_dotenv()
 wakey= os.getenv("wakey") 
 
 # NOTE(Michael): We could use this action to store the name in
@@ -69,12 +69,13 @@ class Wetter(Action):
         # city_name = tracker.get_slot("wacity")
         city_name = "München"
         base_url = "http://api.openweathermap.org/data/2.5/weather?"
-        complete_url = base_url + "appid=" + wakey + "&q=" + city_name + "&units=metric" + "&lang=de"
+        complete_url = base_url + "appid=" + "some_api_key" + "&q=" + city_name + "&units=metric" + "&lang=de"
         response = requests.get(complete_url)
-        x = response.json()["main"]
-        desc = response.json()["weather"]
-        current_temperature = x["temp"]
-        weather_description = desc[0]["description"]
-        dispatcher.utter_button_message(f"In {city_name} sind es " + str(current_temperature) + "°C. \nAktueller Wetterstatus: " + str(weather_description))
-
+        print(response)
+        # x = response.json()["main"]
+        # desc = response.json()["weather"]
+        # current_temperature = x["temp"]
+        # weather_description = desc[0]["description"]
+        # dispatcher.utter_button_message(f"In {city_name} sind es " + str(current_temperature) + "°C. \nAktueller Wetterstatus: " + str(weather_description))
+        dispatcher.utter_message("Hello from weather API")
         return

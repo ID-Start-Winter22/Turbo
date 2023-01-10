@@ -157,3 +157,8 @@ stories:
   - action: utter_greet
   - intent: deny
   - action: utter_deny
+  
+- story: weather path
+  steps:
+  - intent: wetter
+  - action: action_get_weather

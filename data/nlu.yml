@@ -126,3 +126,8 @@ nlu:
   examples: |
    - /kino
    - kino
+
+- intent: wetter
+  examples: |
+   - /wetter
+   - weather

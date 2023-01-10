@@ -14,6 +14,7 @@ intents:
   - natur
   - kino
   - surprise me!
+  - wetter
 
 
 actions:
