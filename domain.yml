@@ -14,6 +14,7 @@ intents:
   - natur
   - kino
   - surprise me!
+  - weather
 
 
 actions:
@@ -35,7 +36,11 @@ actions:
   - utter_natur_ds
   - utter_sport_ds
   - utter_surprise_ds
-  - action_get_weather
+  - action_weather_api
+  - utter_sport_k
+  - utter_kultur_k
+  - utter_natur_k
+  - utter_kino_k
 
 entities:
   - username
@@ -48,12 +53,13 @@ slots:
     - type: from_entity
       entity: username
 
+  
 responses:
   utter_greet:
   - text: "Hey! Ich heiße Turbo, dein virtueller Reiseführer. Möchtest du etwas erleben?"
 
   utter_affirm:
-  - text: "Heute ist 10° in München. Möchtest du drinnen oder draußen etwas machen?"
+  - text: "Heute ist {temp} in München. Möchtest du drinnen oder draußen etwas machen?"
     buttons:
     - title: "drinnen"
       payload: drinnen
@@ -66,7 +72,7 @@ responses:
     - title: "Ja"
       payload: ja
     - title: "Nein"
-      payload: Nein
+      payload: nein
 
   utter_activity:
   - text: "Wähle deine beliebste Aktivität: "
@@ -99,7 +105,7 @@ responses:
 
   utter_kultur_ds:
   - text: "Wir empfehlen dir eine Exkursion auf hot rod fun zu besuchen: "
-    image: "https://www.hotrod-fun.com/wp-content/uploads/2022/04/werbemittel_werbetraeger_muenchen.jpg"
+    image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/16/de/48/universitat.jpg?w=1200&h=900&s=1"
 
   utter_natur_dr:
   - text: "Entdecken Sie Botanischer Garten München-Nymphenburg"
@@ -124,6 +130,22 @@ responses:
   utter_surprise_ds:
   - text: "Zeltdachtour auf dem Olympiastadion: "
     image: "https://www.muenchenticket.de/media/image/original/8325_816_event_2846-de_DE-148344814765.jpg"
+
+  utter_sport_k:
+  - text: "Kostenlos Fitness, Yoga, Qi Gong und Zumba in Münchner Parks. Angebote gibt es im Ostpark, Luitpoldpark, Westpark, Riemer Park, im Rosengarten und einigen weiteren Locations."
+    image: "https://www.charivari.de/assets/Uploads/_resampled/ScaleHeightWzQwMy4xNDEzNjEyNTY1NF0/Fit-im-Park.png"
+
+  utter_kultur_k:
+  - text: "Das Haus der Kunst hat jeden ersten Donnerstag im Monat zwischen 18:00 und 22:00 Uhr freien Eintritt."
+    image: "https://img.artlogic.net/w_1600,h_1600,c_limit/exhibit-e/5b363dcb6aa72c840f8e552f/937b03f12ac7f6ed091d085aa3597d02.jpg"
+
+  utter_natur_k:
+  - text: "Am Auer Mühlbach spazieren: "
+    image: "https://i.ibb.co/mGF4X1b/auer-muhlbach-10-680x383.jpg"
+
+  utter_kino_k:
+  - text: "Wir raten dir ein interessantes Show über München zu schauen:"
+    image: "https://i.ytimg.com/vi/3Nh0ePs8W0U/maxresdefault.jpg"
 
   utter_another:
   - text: "Natürlich! Ich schlage dir vor, dieses Ort zu besuchen: Eisbahn am Karlsplatz. Gefällt es dir?"

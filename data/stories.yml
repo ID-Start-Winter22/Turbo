@@ -6,10 +6,10 @@ stories:
   - intent: greet
   - action: utter_greet
   - intent: affirm
-  - action: utter_affirm
-  - intent: drinnen
   - action: utter_geld
   - intent: affirm
+  - action: utter_affirm
+  - intent: drinnen
   - action: utter_activity
   - intent: sport
   - action: utter_sport_dr
@@ -21,10 +21,10 @@ stories:
   - intent: greet
   - action: utter_greet
   - intent: affirm
-  - action: utter_affirm
-  - intent: draussen
   - action: utter_geld
   - intent: affirm
+  - action: utter_affirm
+  - intent: draussen
   - action: utter_activity
   - intent: sport
   - action: utter_sport_ds
@@ -36,10 +36,10 @@ stories:
   - intent: greet
   - action: utter_greet
   - intent: affirm
-  - action: utter_affirm
-  - intent: drinnen
   - action: utter_geld
   - intent: affirm
+  - action: utter_affirm
+  - intent: drinnen
   - action: utter_activity
   - intent: kultur
   - action: utter_kultur_dr
@@ -51,10 +51,10 @@ stories:
   - intent: greet
   - action: utter_greet
   - intent: affirm
-  - action: utter_affirm
-  - intent: draussen
   - action: utter_geld
   - intent: affirm
+  - action: utter_affirm
+  - intent: draussen
   - action: utter_activity
   - intent: kultur
   - action: utter_kultur_ds
@@ -66,10 +66,10 @@ stories:
   - intent: greet
   - action: utter_greet
   - intent: affirm
-  - action: utter_affirm
-  - intent: drinnen
   - action: utter_geld
   - intent: affirm
+  - action: utter_affirm
+  - intent: drinnen
   - action: utter_activity
   - intent: natur
   - action: utter_natur_dr
@@ -81,10 +81,10 @@ stories:
   - intent: greet
   - action: utter_greet
   - intent: affirm
-  - action: utter_affirm
-  - intent: draussen
   - action: utter_geld
   - intent: affirm
+  - action: utter_affirm
+  - intent: draussen
   - action: utter_activity
   - intent: natur
   - action: utter_natur_ds
@@ -96,10 +96,10 @@ stories:
   - intent: greet
   - action: utter_greet
   - intent: affirm
-  - action: utter_affirm
-  - intent: drinnen
   - action: utter_geld
   - intent: affirm
+  - action: utter_affirm
+  - intent: drinnen
   - action: utter_activity
   - intent: kino
   - action: utter_kino_dr
@@ -111,10 +111,10 @@ stories:
   - intent: greet
   - action: utter_greet
   - intent: affirm
-  - action: utter_affirm
-  - intent: draussen
   - action: utter_geld
   - intent: affirm
+  - action: utter_affirm
+  - intent: draussen
   - action: utter_activity
   - intent: kino
   - action: utter_kino_ds
@@ -126,10 +126,10 @@ stories:
   - intent: greet
   - action: utter_greet
   - intent: affirm
-  - action: utter_affirm
-  - intent: drinnen
   - action: utter_geld
   - intent: affirm
+  - action: utter_affirm
+  - intent: drinnen
   - action: utter_activity
   - intent: surprise me!
   - action: utter_surprise_dr
@@ -141,13 +141,65 @@ stories:
   - intent: greet
   - action: utter_greet
   - intent: affirm
-  - action: utter_affirm
-  - intent: draussen
   - action: utter_geld
   - intent: affirm
+  - action: utter_affirm
+  - intent: draussen
   - action: utter_activity
   - intent: surprise me!
   - action: utter_surprise_ds
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: sport kostenlos path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_geld
+  - intent: deny
+  - action: utter_activity
+  - intent: sport
+  - action: utter_sport_k
+  - intent: affirm
+  - action: utter_goodbye
+  
+- story: kultur kostenlos path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_geld
+  - intent: deny
+  - action: utter_activity
+  - intent: kultur
+  - action: utter_kultur_k
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: natur kostenlos path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_geld
+  - intent: deny
+  - action: utter_activity
+  - intent: natur
+  - action: utter_natur_k
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: kino kostenlos path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_geld
+  - intent: deny
+  - action: utter_activity
+  - intent: kino
+  - action: utter_kino_k
   - intent: affirm
   - action: utter_goodbye
 
@@ -157,3 +209,10 @@ stories:
   - action: utter_greet
   - intent: deny
   - action: utter_deny
+
+- story: weather
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: weather
+  - action: action_weather_api
