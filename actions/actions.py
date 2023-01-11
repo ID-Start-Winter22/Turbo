@@ -7,11 +7,25 @@
 
 # This is a simple example for a custom action which utters "Hello World!"
 
+import requests
+import os            
+# from dotenv import load_dotenv, find_dotenv
+from pathlib import Path
+import re
 from typing import Any, Text, Dict, List
 
+from rasa_sdk import Tracker, FormValidationAction, Action
+from rasa_sdk.events import EventType, SlotSet
+from rasa_sdk.types import DomainDict
+from rasa_sdk.executor import CollectingDispatcher
+from typing import Any, Text, Dict, List
+from pyparsing import nestedExpr
+import requests
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
-from weather import Weather
+
+# load_dotenv()
+wakey= os.getenv("wakey") 
 
 # NOTE(Michael): We could use this action to store the name in
 #                the TrackerStore (in memory database) or a persitent DB
