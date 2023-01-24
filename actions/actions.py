@@ -62,7 +62,7 @@ class ActionUserName(Action):
 
 class Wetter(Action):
     def name(self) -> Text:
-        return "action_get_weather"
+        return "action_weather_api"
     def run(self, dispatcher: CollectingDispatcher,
         tracker: Tracker,
         domain: Dict[Text, Any]) -> List[Dict[Text,Any]]:
@@ -77,6 +77,6 @@ class Wetter(Action):
         desc = response.json()["weather"]
         current_temperature = x["temp"]
         weather_description = desc[0]["description"]
-        dispatcher.utter_message(f"In {city_name} sind es " + str(current_temperature) + "°C. \nAktueller Wetterstatus: " + str(weather_description))
+        dispatcher.utter_message(f"In {city_name} sind es " + str(current_temperature) + "°C. \nAktueller Wetterstatus: " + str(weather_description) + "\nMöchtest du drinnen oder draußen etwas machen?")
         # dispatcher.utter_message("Hello from weather API")
         return

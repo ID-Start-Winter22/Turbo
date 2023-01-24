@@ -147,6 +147,10 @@ responses:
   - text: "Wir raten dir ein interessantes Show über München zu schauen:"
     image: "https://i.ytimg.com/vi/3Nh0ePs8W0U/maxresdefault.jpg"
 
+  utter_surprise_k:
+  - text: "Wir raten dir ein interessantes Show über München zu schauen:"
+    image: "https://i.ytimg.com/vi/3Nh0ePs8W0U/maxresdefault.jpg"
+
   utter_another:
   - text: "Natürlich! Ich schlage dir vor, dieses Ort zu besuchen: Eisbahn am Karlsplatz. Gefällt es dir?"
     image: "https://i.ibb.co/b6ZVJcm/652466-EC-74-A9-466-B-8135-194-CA6-D7-F8-C8.jpg"
