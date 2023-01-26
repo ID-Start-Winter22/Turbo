@@ -116,7 +116,7 @@ responses:
   - text: "Die Adresse lautet: Thalkirchner Straße 207 81371 München, viel Spass!"
 
   utter_sport_ds:
-  - text: "Das könnte dir gefallen: Wakeboarden in Aschheim: \nHättest du Lust darauf?"
+  - text: "Wakeboarden in Aschheim: "
     image: "https://www.wasserskipark-aschheim.de/wp-content/uploads/2022/03/sessions-1280x891.jpg"
 
   utter_sport_ds_adr:
@@ -130,7 +130,7 @@ responses:
   - text: "Die Adresse lautet: Museumsinsel 1 80538 München, viel Spass"
 
   utter_kultur_ds:
-  - text: "Das könnte dir gefallen: eine Exkursion auf hot rod fun: \nHättest du Lust darauf?"
+  - text: "Wir empfehlen dir eine Exkursion auf hot rod fun zu besuchen: "
     image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/16/de/48/universitat.jpg?w=1200&h=900&s=1"
 
   utter_kultur_ds_adr:
@@ -138,7 +138,7 @@ responses:
 
 
   utter_natur_dr:
-  - text: "Entdecke Botanischer Garten München-Nymphenburg. \nHättest du Lust darauf?"
+  - text: "Entdecken Sie Botanischer Garten München-Nymphenburg"
     image: "https://mein-muenchen.de/wp-content/uploads/2022/02/Header_1050x590-5.jpg"
   
   utter_natur_dr_adr:
@@ -162,14 +162,14 @@ responses:
 
 
   utter_kino_ds:
-  - text: "Das könnte dir gefallen: Kino, Mond & Sterne. \nHättest du Lust darauf?"
+  - text: "Kino, Mond & Sterne"
     image: "https://www.muenchen-online.de/wp-content/uploads/2019/05/Kino-Mond-Sterne.jpg"
 
   utter_kino_ds_adr: 
   - text: "Die Adresse lautet: Westendstraße 300, 81377 München, viel Spass"
 
   utter_surprise_dr:
-  - text: "Das könnte für dich interessant sein: Trampolin-Freizeitpark für die ganze Familie in München: \nHättest du Lust darauf?"
+  - text: "Trampolin-Freizeitpark für die ganze Familie in München: "
     image: "https://www.ruhrtopcard.de/fileadmin/_processed_/7/2/csm_wipeout_dbd5cb8b4d.jpg"
 
   utter_surprise_dr_adr:
@@ -177,7 +177,7 @@ responses:
 
   
   utter_surprise_ds:
-  - text: "Das könnte dir gefallen: Zeltdachtour auf dem Olympiastadion: \nHättest du Lust darauf?"
+  - text: "Zeltdachtour auf dem Olympiastadion: "
     image: "https://www.muenchenticket.de/media/image/original/8325_816_event_2846-de_DE-148344814765.jpg"
 
   utter_surprise_ds_adr:
@@ -185,7 +185,7 @@ responses:
   
 
   utter_sport_k:
-  - text: "Wie wäre es mit: Kostenlos Fitness, Yoga, Qi Gong und Zumba in Münchner Parks? Angebote gibt es im Ostpark, Luitpoldpark, Westpark, Riemer Park, im Rosengarten und einigen weiteren Locations. \nHättest du Lust darauf?"
+  - text: "Kostenlos Fitness, Yoga, Qi Gong und Zumba in Münchner Parks. Angebote gibt es im Ostpark, Luitpoldpark, Westpark, Riemer Park, im Rosengarten und einigen weiteren Locations."
     image: "https://www.charivari.de/assets/Uploads/_resampled/ScaleHeightWzQwMy4xNDEzNjEyNTY1NF0/Fit-im-Park.png"
 
 
@@ -200,7 +200,7 @@ responses:
   - text: "Die Adresse lautet: Prinzregentenstraße 1, 80538 München, viel Spass!"
 
   utter_natur_k:
-  - text: "Mein Vorschlag für dich: Am Auer Mühlbach spazieren: \nHättest du Lust darauf?"
+  - text: "Am Auer Mühlbach spazieren: "
     image: "https://i.ibb.co/mGF4X1b/auer-muhlbach-10-680x383.jpg"
 
 
@@ -210,7 +210,7 @@ responses:
  
 
   utter_kino_k:
-  - text: "Wie wäre es mit einer interessanten Show über München zu schauen? \nHättest du Lust darauf?"
+  - text: "Wir raten dir ein interessantes Show über München zu schauen:"
     image: "https://i.ytimg.com/vi/3Nh0ePs8W0U/maxresdefault.jpg"
 
   utter_kino_k_adr: 
