@@ -130,7 +130,7 @@ responses:
   - text: "Die Adresse lautet: Museumsinsel 1 80538 München, viel Spass"
 
   utter_kultur_ds:
-  - text: "Wir empfehlen dir eine Exkursion auf hot rod fun zu besuchen: "
+  - text: "Das könnte dir gefallen: eine Exkursion auf hot rod fun: "
     image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/16/de/48/universitat.jpg?w=1200&h=900&s=1"
 
   utter_kultur_ds_adr:
@@ -185,7 +185,7 @@ responses:
   
 
   utter_sport_k:
-  - text: "wie wäre es mit: Kostenlos Fitness, Yoga, Qi Gong und Zumba in Münchner Parks? Angebote gibt es im Ostpark, Luitpoldpark, Westpark, Riemer Park, im Rosengarten und einigen weiteren Locations."
+  - text: "Wie wäre es mit: Kostenlos Fitness, Yoga, Qi Gong und Zumba in Münchner Parks? Angebote gibt es im Ostpark, Luitpoldpark, Westpark, Riemer Park, im Rosengarten und einigen weiteren Locations."
     image: "https://www.charivari.de/assets/Uploads/_resampled/ScaleHeightWzQwMy4xNDEzNjEyNTY1NF0/Fit-im-Park.png"
 
 
@@ -210,7 +210,7 @@ responses:
  
 
   utter_kino_k:
-  - text: "Wir raten dir ein interessantes Show über München zu schauen:"
+  - text: "Wie wäre es mit einer interessanten Show über München zu schauen?"
     image: "https://i.ytimg.com/vi/3Nh0ePs8W0U/maxresdefault.jpg"
 
   utter_kino_k_adr: 
