@@ -159,7 +159,6 @@ stories:
   - action: utter_activity
   - intent: surprise me!
   - action: utter_surprise_dr
-  - action: utter_gefaellt
   - intent: affirm
   - action: utter_surprise_dr_adr
   - intent: affirm
