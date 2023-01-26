@@ -138,7 +138,7 @@ responses:
 
 
   utter_natur_dr:
-  - text: "Entdecken Sie Botanischer Garten München-Nymphenburg"
+  - text: "Entdecke Botanischer Garten München-Nymphenburg"
     image: "https://mein-muenchen.de/wp-content/uploads/2022/02/Header_1050x590-5.jpg"
   
   utter_natur_dr_adr:
