@@ -13,7 +13,6 @@ stories:
   - action: utter_activity
   - intent: sport
   - action: utter_sport_dr
-  - action: utter_gefaellt
   - intent: affirm
   - action: utter_sport_dr_adr
   - intent: affirm
@@ -31,7 +30,6 @@ stories:
   - action: utter_activity
   - intent: sport
   - action: utter_sport_ds
-  - action: utter_gefaellt
   - intent: affirm
   - action: utter_sport_ds_adr
   - intent: affirm
@@ -49,7 +47,6 @@ stories:
   - action: utter_activity
   - intent: kultur
   - action: utter_kultur_dr
-  - action: utter_gefaellt
   - intent: affirm
   - action: utter_kultur_dr_adr
   - intent: affirm
@@ -68,7 +65,6 @@ stories:
   - action: utter_activity
   - intent: kultur
   - action: utter_kultur_ds
-  - action: utter_gefaellt
   - intent: affirm
   - action: utter_kultur_ds_adr
   - intent: affirm
@@ -87,7 +83,6 @@ stories:
   - action: utter_activity
   - intent: natur
   - action: utter_natur_dr
-  - action: utter_gefaellt
   - intent: affirm
   - action: utter_natur_dr_adr
   - intent: affirm
@@ -105,7 +100,6 @@ stories:
   - action: utter_activity
   - intent: natur
   - action: utter_natur_ds
-  - action: utter_gefaellt
   - intent: affirm
   - action: utter_natur_ds_adr
   - intent: affirm
@@ -123,7 +117,6 @@ stories:
   - action: utter_activity
   - intent: kino
   - action: utter_kino_dr
-  - action: utter_gefaellt
   - intent: affirm
   - action: utter_kino_dr_adr
   - intent: affirm
@@ -141,7 +134,6 @@ stories:
   - action: utter_activity
   - intent: kino
   - action: utter_kino_ds
-  - action: utter_gefaellt
   - intent: affirm
   - action: utter_kino_ds_adr
   - intent: affirm
@@ -177,7 +169,6 @@ stories:
   - intent: surprise me!
   - intent: surprise me!
   - action: utter_surprise_ds
-  - action: utter_gefaellt
   - intent: affirm
   - action: utter_surprise_ds_adr
   - intent: affirm
@@ -193,7 +184,6 @@ stories:
   - action: utter_activity
   - intent: sport
   - action: utter_sport_k
-  - action: utter_gefaellt
   - intent: affirm
   - action: utter_sport_k_adr
   - intent: affirm
@@ -209,7 +199,6 @@ stories:
   - action: utter_activity
   - intent: kultur
   - action: utter_kultur_k
-  - action: utter_gefaellt
   - intent: affirm
   - action: utter_kulter_k_adr
   - intent: affirm
@@ -226,7 +215,6 @@ stories:
   - action: utter_activity
   - intent: natur
   - action: utter_natur_k
-  - action: utter_gefaellt
   - intent: affirm
   - action: utter_natur_k_adr
   - intent: affirm
@@ -242,7 +230,6 @@ stories:
   - action: utter_activity
   - intent: kino
   - action: utter_kino_k
-  - action: utter_gefaellt
   - intent: affirm
   - action: utter_kino_k_adr
   - intent: affirm

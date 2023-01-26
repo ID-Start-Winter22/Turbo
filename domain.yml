@@ -109,28 +109,28 @@ responses:
   - text: "Schade. Ciao"
 
   utter_sport_dr:
-  - text: "Wer sich für wunde Finger und Erfolgserlebnisse begeistern kann, sollte mal im DAV Kletter- und Boulderzentrum München-Süd vorbeischauen"
+  - text: "Wer sich für wunde Finger und Erfolgserlebnisse begeistern kann, sollte mal im DAV Kletter- und Boulderzentrum München-Süd vorbeischauen. \nHättest du Lust darauf?"
     image: "https://www.kbthalkirchen.de/files/2021/07/201706_DAV_MUE_01302.jpg"
   
   utter_sport_dr_adr:
   - text: "Die Adresse lautet: Thalkirchner Straße 207 81371 München, viel Spass!"
 
   utter_sport_ds:
-  - text: "Wakeboarden in Aschheim: "
+  - text: "Das könnte dir gefallen: Wakeboarden in Aschheim: \nHättest du Lust darauf?"
     image: "https://www.wasserskipark-aschheim.de/wp-content/uploads/2022/03/sessions-1280x891.jpg"
 
   utter_sport_ds_adr:
   - text: "Die Adresse lautet: Am Eventpark 30, 85609 Aschheim, viel Spass"
 
   utter_kultur_dr:
-  - text: "Ich empfele dir das deutsches Museum zu besuchen: "
+  - text: "Ich empfele dir das deutsches Museum zu besuchen: \nHättest du Lust darauf?"
     image: "https://www.nachrichten-muenchen.com/wp-content/uploads/2020/10/Deutsches-Museum-2-696x460.jpg"
 
   utter_kultur_dr_adr:
   - text: "Die Adresse lautet: Museumsinsel 1 80538 München, viel Spass"
 
   utter_kultur_ds:
-  - text: "Wir empfehlen dir eine Exkursion auf hot rod fun zu besuchen: "
+  - text: "Das könnte dir gefallen: eine Exkursion auf hot rod fun: \nHättest du Lust darauf?"
     image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/16/de/48/universitat.jpg?w=1200&h=900&s=1"
 
   utter_kultur_ds_adr:
@@ -138,7 +138,7 @@ responses:
 
 
   utter_natur_dr:
-  - text: "Entdecken Sie Botanischer Garten München-Nymphenburg"
+  - text: "Entdecke Botanischer Garten München-Nymphenburg. \nHättest du Lust darauf?"
     image: "https://mein-muenchen.de/wp-content/uploads/2022/02/Header_1050x590-5.jpg"
   
   utter_natur_dr_adr:
@@ -146,7 +146,7 @@ responses:
 
 
   utter_natur_ds:
-  - text: "Entdecke im Münchner Tierpark die beeindruckende Vielfalt von mehr als 500 Tierarten aus allen fünf Kontinenten:"
+  - text: "Entdecke im Münchner Tierpark die beeindruckende Vielfalt von mehr als 500 Tierarten aus allen fünf Kontinenten: \nHättest du Lust darauf?"
     image: "https://www.freizeitpark-welt.de/zoo/tierpark_hellabrunn/fotos/2017/20180622_163147_34.jpg"
 
   utter_natur_ds_adr:
@@ -154,7 +154,7 @@ responses:
 
 
   utter_kino_dr:
-  - text: "Filme gucken im verrückten Cadillac Kino:"
+  - text: "Filme gucken im verrückten Cadillac Kino: \nHättest du Lust darauf?"
     image: "https://muenchen.mitvergnuegen.com/wp-content/uploads/sites/3/2017/01/saal_159_0_big.jpg"
 
   utter_kino_dr_adr:
@@ -162,14 +162,14 @@ responses:
 
 
   utter_kino_ds:
-  - text: "Kino, Mond & Sterne"
+  - text: "Das könnte dir gefallen: Kino, Mond & Sterne. \nHättest du Lust darauf?"
     image: "https://www.muenchen-online.de/wp-content/uploads/2019/05/Kino-Mond-Sterne.jpg"
 
   utter_kino_ds_adr: 
   - text: "Die Adresse lautet: Westendstraße 300, 81377 München, viel Spass"
 
   utter_surprise_dr:
-  - text: "Trampolin-Freizeitpark für die ganze Familie in München: "
+  - text: "Das könnte für dich interessant sein: Trampolin-Freizeitpark für die ganze Familie in München: \nHättest du Lust darauf?"
     image: "https://www.ruhrtopcard.de/fileadmin/_processed_/7/2/csm_wipeout_dbd5cb8b4d.jpg"
 
   utter_surprise_dr_adr:
@@ -177,7 +177,7 @@ responses:
 
   
   utter_surprise_ds:
-  - text: "Zeltdachtour auf dem Olympiastadion: "
+  - text: "Das könnte dir gefallen: Zeltdachtour auf dem Olympiastadion: \nHättest du Lust darauf?"
     image: "https://www.muenchenticket.de/media/image/original/8325_816_event_2846-de_DE-148344814765.jpg"
 
   utter_surprise_ds_adr:
@@ -185,7 +185,7 @@ responses:
   
 
   utter_sport_k:
-  - text: "Kostenlos Fitness, Yoga, Qi Gong und Zumba in Münchner Parks. Angebote gibt es im Ostpark, Luitpoldpark, Westpark, Riemer Park, im Rosengarten und einigen weiteren Locations."
+  - text: "Wie wäre es mit: Kostenlos Fitness, Yoga, Qi Gong und Zumba in Münchner Parks? Angebote gibt es im Ostpark, Luitpoldpark, Westpark, Riemer Park, im Rosengarten und einigen weiteren Locations. \nHättest du Lust darauf?"
     image: "https://www.charivari.de/assets/Uploads/_resampled/ScaleHeightWzQwMy4xNDEzNjEyNTY1NF0/Fit-im-Park.png"
 
 
@@ -193,14 +193,14 @@ responses:
   - text: "Die Adresse lautet: Feichtstr. 19, 81735 München, viel Spass"
 
   utter_kultur_k:
-  - text: "Das Haus der Kunst hat jeden ersten Donnerstag im Monat zwischen 18:00 und 22:00 Uhr freien Eintritt."
+  - text: "Das Haus der Kunst hat jeden ersten Donnerstag im Monat zwischen 18:00 und 22:00 Uhr freien Eintritt. \nHättest du Lust darauf?"
     image: "https://img.artlogic.net/w_1600,h_1600,c_limit/exhibit-e/5b363dcb6aa72c840f8e552f/937b03f12ac7f6ed091d085aa3597d02.jpg"
   
   utter_kulter_k_adr:
   - text: "Die Adresse lautet: Prinzregentenstraße 1, 80538 München, viel Spass!"
 
   utter_natur_k:
-  - text: "Am Auer Mühlbach spazieren: "
+  - text: "Mein Vorschlag für dich: Am Auer Mühlbach spazieren: \nHättest du Lust darauf?"
     image: "https://i.ibb.co/mGF4X1b/auer-muhlbach-10-680x383.jpg"
 
 
@@ -210,7 +210,7 @@ responses:
  
 
   utter_kino_k:
-  - text: "Wir raten dir ein interessantes Show über München zu schauen:"
+  - text: "Wie wäre es mit einer interessanten Show über München zu schauen? \nHättest du Lust darauf?"
     image: "https://i.ytimg.com/vi/3Nh0ePs8W0U/maxresdefault.jpg"
 
   utter_kino_k_adr: 
