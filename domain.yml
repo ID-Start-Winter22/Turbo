@@ -169,7 +169,7 @@ responses:
   - text: "Die Adresse lautet: Westendstraße 300, 81377 München, viel Spass"
 
   utter_surprise_dr:
-  - text: "Trampolin-Freizeitpark für die ganze Familie in München: "
+  - text: "Das könnte für dich interessant sein: Trampolin-Freizeitpark für die ganze Familie in München: "
     image: "https://www.ruhrtopcard.de/fileadmin/_processed_/7/2/csm_wipeout_dbd5cb8b4d.jpg"
 
   utter_surprise_dr_adr:
@@ -200,7 +200,7 @@ responses:
   - text: "Die Adresse lautet: Prinzregentenstraße 1, 80538 München, viel Spass!"
 
   utter_natur_k:
-  - text: "Am Auer Mühlbach spazieren: "
+  - text: "Mein Vorschlag für dich: Am Auer Mühlbach spazieren: "
     image: "https://i.ibb.co/mGF4X1b/auer-muhlbach-10-680x383.jpg"
 
 
